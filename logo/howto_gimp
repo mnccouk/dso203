@@ -1,0 +1,7 @@
+# Make sure canvas is 256x64
+
+# Make sure the image is set to 16 colors:
+Image->Mode->Indexed... -> Set numbers of colors to 16
+
+# Export file as bitmap
+File->Export As-> Windows BMP image (*.bmp) ->Export-> Compatibility Options, Select Do not write color space information->Export
